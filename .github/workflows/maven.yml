@@ -22,4 +22,4 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Run JAR file
-      run: sudo kill -9 `sudo lsof -t -i:9092` & sudo java -jar /home/jeremie/actions-runner/_work/budgeting-app-backend/budgeting-app-backend/target/*.jar
+      run: sudo kill -9 `sudo lsof -t -i:9092` & sudo java -jar /home/jeremie/actions-runner/_work/budgeting-app-backend/budgeting-app-backend/target/*.jar &
