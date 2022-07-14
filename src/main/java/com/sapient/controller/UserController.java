@@ -19,7 +19,7 @@ public class UserController {
 
     @QueryMapping
     public String greeting() {
-        return "Hello world from graphql endpoint!";
+        return "Hello world from graphql endpoint 2!";
     }
 
     @QueryMapping
